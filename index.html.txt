@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Orbitron', sans-serif;
+        background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      }
+      .neon-text {
+        text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+      }
+      .glass {
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body class="text-white min-h-screen flex flex-col items-center justify-center px-4">
+    <div class="glass p-8 rounded-2xl shadow-xl max-w-xl text-center">
+      <h1 class="text-5xl neon-text mb-4">🚀 Future Portal</h1>
+      <p class="text-gray-300 mb-6">Step into tomorrow with immersive design and cutting-edge tech.</p>
+      <a href="#start" class="mt-4 inline-block px-6 py-3 bg-cyan-500 text-black font-bold rounded-full hover:bg-cyan-400 transition">
+        Get Started
+      </a>
+    </div>
+
+    <footer class="mt-16 text-gray-500 text-sm">
+      Made with ✨ by You — <span class="text-cyan-400">Open Source</span>
+    </footer>
+  </body>
+</html>
